@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:;">
+  <title>Shurget</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0a0a0a; display: flex; align-items: center; justify-content: center; height: 100vh; }
+    .splash { text-align: center; }
+    .splash img { width: 120px; margin-bottom: 1rem; }
+    .splash p { color: #ea580c; font-family: sans-serif; font-size: 1rem; }
+  </style>
+</head>
+<body>
+  <div class="splash">
+    <p>Loading Shurget...</p>
+  </div>
+  <!-- Capacitor bridge — injected automatically at runtime by Android -->
+  <script>
+    // Redirect to live server — Capacitor server config handles this
+    // This file only shows briefly during splash
+  </script>
+</body>
+</html>
